@@ -9,6 +9,7 @@ const Square = () => {
         type="source"
         position={Position.Top}
         className="!-top-5 !w-3 !h-3 !border-2 !bg-blue-400/80"
+        onConnect={(params) => console.log('handle onConnect', params)}
       />
       <Handle
         id="right"
